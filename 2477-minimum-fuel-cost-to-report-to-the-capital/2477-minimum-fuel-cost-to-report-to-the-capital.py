@@ -5,6 +5,7 @@ class Solution:
         for u, v in roads:
             graph[u].append(v)
             graph[v].append(u)
+        @cache
         def dfs(v, par):
             cost, people = 0, 1
             for u in graph[v]:
