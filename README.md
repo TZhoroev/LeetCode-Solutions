@@ -1,2 +1,2 @@
 # My LeetCode Solutions using Python.
-![Image](https://raw.githubusercontent.com/TZhoroev/LeetCode-Solutions/main/leetcode.webp)
+![Image](https://github.com/TZhoroev/LeetCode-Solutions/blob/main/LC.png)
