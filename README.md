@@ -1,2 +1,2 @@
-# My LeetCode Solutions using Python.
+This repository contains my solutions to a selection of LeetCode problems. Each solution includes the problem statement, my thought process, and the code. I hope that these solutions can serve as a reference for those who are also working on these problems, or for those who are simply looking for a different perspective on how to approach these challenges.
 ![Image](https://github.com/TZhoroev/LeetCode-Solutions/blob/main/LC.png)
