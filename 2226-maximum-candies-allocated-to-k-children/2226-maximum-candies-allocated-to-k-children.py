@@ -14,7 +14,6 @@ class Solution:
             if helper(mid):
                 left = mid + 1
                 ans = mid
-                print(mid)
             else:
                 right = mid - 1
         return ans 
