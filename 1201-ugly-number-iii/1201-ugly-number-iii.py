@@ -6,7 +6,6 @@ class Solution:
             count = p // a + p // b + p // c
             count -= (p // ab + p // ac + p // bc)
             count += p // abc
-            print(p, count)
             return count >= n
         ans = -1 
         while left <= right:
