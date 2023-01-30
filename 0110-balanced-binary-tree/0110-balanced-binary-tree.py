@@ -9,13 +9,15 @@ class Solution:
         
         def dfs(node):
             if not node: 
-                return True, 0
-            l_cond, l_length = dfs(node.left)
-            r_cond, r_length = dfs(node.right)
+                return 0
+            l_length = dfs(node.left)
+            if l_length == -1: return -1
+            r_length = dfs(node.right)
+            if r_length == -1: return -1
             if abs(l_length - r_length) > 1:
-                return False, max(l_length, r_length)
+                return -1
             else:
-                return l_cond and r_cond, max(l_length, r_length) + 1
-        return dfs(root)[0]
+                return max(l_length, r_length) + 1
+        return True if dfs(root) != -1 else False
             
         
