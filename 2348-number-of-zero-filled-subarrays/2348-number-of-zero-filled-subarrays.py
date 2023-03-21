@@ -5,8 +5,8 @@ class Solution:
             if num:
                 c_zeros = 0
             else:
-                res += 1 + c_zeros
                 c_zeros += 1
+                res += c_zeros
         return res
                     
             
